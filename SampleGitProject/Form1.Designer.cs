@@ -32,6 +32,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.radAdmin = new System.Windows.Forms.RadioButton();
+            this.radMgr = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -70,11 +72,35 @@
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 3;
             // 
+            // radAdmin
+            // 
+            this.radAdmin.AutoSize = true;
+            this.radAdmin.Location = new System.Drawing.Point(531, 84);
+            this.radAdmin.Name = "radAdmin";
+            this.radAdmin.Size = new System.Drawing.Size(54, 17);
+            this.radAdmin.TabIndex = 6;
+            this.radAdmin.TabStop = true;
+            this.radAdmin.Text = "Admin";
+            this.radAdmin.UseVisualStyleBackColor = true;
+            // 
+            // radMgr
+            // 
+            this.radMgr.AutoSize = true;
+            this.radMgr.Location = new System.Drawing.Point(591, 84);
+            this.radMgr.Name = "radMgr";
+            this.radMgr.Size = new System.Drawing.Size(67, 17);
+            this.radMgr.TabIndex = 7;
+            this.radMgr.TabStop = true;
+            this.radMgr.Text = "Manager";
+            this.radMgr.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.radMgr);
+            this.Controls.Add(this.radAdmin);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
@@ -92,6 +118,8 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.RadioButton radAdmin;
+        private System.Windows.Forms.RadioButton radMgr;
     }
 }
 
