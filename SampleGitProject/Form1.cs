@@ -19,7 +19,7 @@ namespace SampleGitProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome " + textBox1.Text);
+            MessageBox.Show("Welcome " + ((radAdmin.Checked)? "Admin": "Manager") + " " +textBox1.Text);
         }
 
         private void label1_Click(object sender, EventArgs e)
