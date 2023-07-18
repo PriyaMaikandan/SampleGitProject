@@ -40,9 +40,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(149, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(289, 18);
+            this.label1.Size = new System.Drawing.Size(335, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome !, Please enter your name !!";
+            this.label1.Text = "Welcome !, Please enter your login  name !!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // textBox1
